@@ -1,0 +1,57 @@
+@media(max-width:414px){
+    body{
+        background-color: #FB6B6B;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .root{
+       width:100%;
+       height:100vh;
+    }
+    .PG1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .PG1 > img{
+        width:175px;
+        height:175px;
+        margin-bottom:20px;
+    }
+    .PG1 > h1{
+        font-size: 55px;
+        color: white;
+        font-weight: 700;
+        margin-bottom:20px;
+    }
+    .start{
+        font-size: 20px;
+        color:#ff5959 ;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-radius: 10px;
+        border: #ff5959 1px solid;
+    }
+
+    /*PAGINA 2 */
+    .topo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .PG2 > img{
+        width:60px;
+        height:60px;
+    }
+
+
+}
