@@ -51,7 +51,62 @@
     .PG2 > img{
         width:60px;
         height:60px;
+    }   
+
+
+    .question{
+        background-color: white;
+        height: 70px;
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 40px;
+        border: lightgray solid 2px;
     }
+    .questions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+
+    }
+    .question2{
+        background-color: #FFFFD4;
+        height: 140px;
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 40px;
+        border: lightgray solid 2px;
+    }
+    .question3{
+        background-color: #FFFFD4;
+        height: 140px;
+        width: 350px;
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 40px;
+        border: lightgray solid 2px;
+    }
+    .opcoes{
+        display: flex;
+        background-color: antiquewhite;
+        font-size:15px ;
+        justify-content: space-between;
+    }
+    .Nao,.Quase,.Zap{
+        background-color: blue;
+    }
+
 
 
 }

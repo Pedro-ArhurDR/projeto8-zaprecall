@@ -4,4 +4,4 @@ import App from './App/App';
 
 
 
-ReactDOM.render(<App/>, document.querySelector(".oot"));
+ReactDOM.render(<App/>, document.querySelector(".root"));
