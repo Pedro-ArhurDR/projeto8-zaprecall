@@ -1,5 +1,6 @@
 import React from "react"
 import PG2func from "../PG2/PG2func"
+import Topo from '../PG2/Topo'
 
 
 
@@ -33,11 +34,7 @@ export default function PG2(){
     if(cards===0){
       return(
         <>
-          <div class="PG2">
-                <div class="topo">
-          <img src="images/logo-pequeno.png" /><h1>ZapRecall</h1>
-      </div>
-        </div>
+          <Topo/>
         {Cartas.map((element, index)=>
         (<div class='questions' onClick={(This) => setCards(1)}>
                           {element}
@@ -49,12 +46,7 @@ export default function PG2(){
 
     if(cards===1){
       return(
-        <>
-            <div class="PG2">
-                <div class="topo">
-                 <img src="images/logo-pequeno.png" /><h1>ZapRecall</h1>
-                </div>
-            </div>
+        <>  <Topo/>
             {Perguntas.map((element, index) => (
               <div class='questions'>
                 <PG2func

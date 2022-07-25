@@ -61,9 +61,9 @@ export default function PG2func(
         x = [...x,<ion-icon name="close-circle-outline"></ion-icon>]
         return(
             <>
-            <div className=''>
-                    <p className=''>Pergunta {index + 1}</p>
-                    <ion-icon name="close-circle-outline"></ion-icon>
+            <div class='respondido'>
+                    <p>Pergunta {index + 1}</p>
+                    <ion-icon class='Nao' name="close-circle-outline"></ion-icon>
             </div>
             </>
         )
@@ -71,9 +71,9 @@ export default function PG2func(
     if(turn===5){
         return(
             <>
-            <div className=''>
-                    <p className=''>Pergunta {index + 1}</p>
-                    <ion-icon name="help-circle-outline"></ion-icon>
+            <div class='respondido'>
+                    <p>Pergunta {index + 1}</p>
+                    <ion-icon class='Quase' name="help-circle-outline"></ion-icon>
             </div>
             </>
         )
@@ -81,9 +81,9 @@ export default function PG2func(
     if(turn===6){
         return(
             <>
-            <div className=''>
-                    <p className=''>Pergunta {index + 1}</p>
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <div class='respondido'>
+                    <p>Pergunta {index + 1}</p>
+                    <ion-icon class='Zap' name="checkmark-circle-outline"></ion-icon>
             </div>
             </>
         )
